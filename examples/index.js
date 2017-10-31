@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 Vue.use(VueRouter);
+import Ajax from '../packages/vue-ajax/ajax'
+
+Vue.use(Ajax);
 import '../packages/theme/date-picker.scss'
 const routes = [
 

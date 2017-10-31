@@ -1,11 +1,16 @@
 <template>
-    <div class="Test">{{msg}}</div>
+    <div class="Test" @click="test">{{msg}}</div>
 </template>
 <script>
     export default {
         data() {
             return {
-                msg:"hi lib"
+                msg: "hi lib"
+            }
+        },
+        methods: {
+            test() {
+                console.log(this.$ajax);
             }
         }
     }
