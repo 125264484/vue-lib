@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAEA,KAAK;EACH,UAAU,EAHA,IAAI",
-"sources": ["packages/theme/date-picker.scss"],
-"names": [],
-"file": "JSON"
-}
